@@ -7,7 +7,7 @@ class Home extends Component {
     return (
       <div>
         <Navbar />
-        <Jumbotron title="Cyber Security" subtitle="Importance of Cyber Security" />
+        <Jumbotron title="Cyber Security" subtitle="Importance of Cyber Security." />
         <div className="container">
           <h2>Home</h2>
           <p>

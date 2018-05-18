@@ -10,14 +10,14 @@ class Navbar extends Component {
           <span className="navbar-toggler-icon"></span>
         </button>
         <div className="container">
-          <Link className="navbar-brand" to="/">React Website</Link>
+          <Link className="navbar-brand" to="/">Cross Site Scripting</Link>
           <div className="collapse navbar-collapse" id="navbarCollapse">
             <ul className="navbar-nav ml-auto">
               <li className="nav-item active">
                 <Link className="nav-link" to="/">Home <span className="sr-only">(current)</span></Link>
               </li>
               <li className="nav-item">
-                <Link className="nav-link" to="/about">About</Link>
+                <Link className="nav-link" to="/signs">Signs To Look Out For</Link>
               </li>
               <li className="nav-item">
                 <Link className="nav-link" to="/contact">Contact</Link>
