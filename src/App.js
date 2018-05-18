@@ -12,6 +12,8 @@ import Example5 from './components/Example5.jsx';
 import Example6 from './components/Example6.jsx';
 import Example7 from './components/Example7.jsx';
 
+import Landing from './components/Landing.jsx';
+
 class App extends Component {
   render() {
     return (
@@ -27,6 +29,8 @@ class App extends Component {
           <Route path="/example5" component={Example5}/>
           <Route path="/example6" component={Example6}/>
           <Route path="/example7" component={Example7}/>
+
+          <Route path="/landing" component={Landing}/>
         </div>
       </Router>
     );
