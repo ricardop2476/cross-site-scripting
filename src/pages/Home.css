@@ -1,7 +1,3 @@
-.display-3 {
-  color: white;
-}
-
 #content {
 	padding-top: 25px;
 	padding-bottom: 15px;
@@ -9,10 +5,10 @@
 
 #header {
 	font-family: 'Poppins', sans-serif;
-	font-size: 32px;
+	font-size: 27px;
 }
 
 #paragraph { 
     font-family: 'Lato', sans-serif;
-    font-size: 18.5px;
+    font-size: 17px;
 }

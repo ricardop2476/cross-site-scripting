@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import './Signs.css';
 import Navbar from '../components/Navbar.jsx';
 import Jumbotron from '../components/Jumbotron.jsx';
 
@@ -7,8 +8,8 @@ class Signs extends Component {
     return (
       <div>
         <Navbar />
-        <Jumbotron title="Signs" subtitle="This page is all about signs."/>
-        <div className="container">
+        <Jumbotron title="Signs To Look Out For" subtitle="This page is all about signs."/>
+        <div className="container" id="contentt">
           <h2>Worms</h2>
           <p>
             Worm is a malicious program that can multiply itself and can leak into other systems. A user can be a victim to this if he/she mistakenly downloaded or executed some thing that was thought to be something else.

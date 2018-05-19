@@ -7,7 +7,7 @@ import { Link } from 'react-router-dom';
 class Example3 extends Component {
   render() {
     return (
-      <div id="example3">
+      <div id="example3" onLoad={()=>{ alert('alert'); }}>
       	<Navbar />
       	<Jumbotron title="Simulation" subtitle="Credit: hacksplaining.com"/>
 
