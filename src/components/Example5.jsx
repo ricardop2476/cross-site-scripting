@@ -10,7 +10,7 @@ class Example5 extends Component {
       	<Navbar />
       	<Jumbotron title="Simulation" subtitle="Credit: hacksplaining.com"/>
 
-        <div className="container" id="simulation">
+        <div className="container" id="simulation" onLoad={()=>{ alert(''); }}>
           <Link to="/example6" id="link">Next</Link>
       	 <img className="center" src={ require('../images/example3.png') } />
       	 <p>
