@@ -1,0 +1,15 @@
+#img1, #img2 {
+  position: absolute;
+  top: 100px;
+  left: 350px;
+  padding-bottom: 90px;
+}
+
+#img1 {
+  z-index: 1;
+  width: 350px;
+}
+#img2 {
+  z-index: 4;
+  width: 350px;
+}
